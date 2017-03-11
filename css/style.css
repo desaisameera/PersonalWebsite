@@ -1,3 +1,7 @@
+/**{
+	box-sizing: border-box;
+	/*font-family: cursive;*/
+}*/
 #bg-image{
 	/*background: url('../Images/IMG_0772.jpg') no-repeat;*/
   	/*width: 150px;
@@ -5,4 +9,50 @@
   	margin: 10px 15px 10px 0;
   	color: red;
 
+}
+.navbar-brand a{
+  text-decoration: none;
+	color: #ffffff;
+}
+#nav-list{
+	text-align: center;
+}
+
+#nav-bar{
+	border-radius: 0;
+  border: 0;
+}
+/**** Large Devices ****/
+@media(min-width: 1200px){
+
+}
+
+/**** Medium Devices ****/
+@media(min-width: 992px) {
+
+}
+
+/**** Small Devices ****/
+@media(min-width: 768px) {
+	/*.navbar-brand{
+		padding-top: 25px;
+	}*/
+
+}
+
+/**** Extra Small Devices ****/
+@media(max-width: 767px) {
+	.navbar-brand {
+		/*font-size: 5vw;*/
+		/*padding-bottom: 8px;2*/
+	}
+
+}
+
+/**** Super Extra Small Devices ****/
+@media(max-width: 279px){
+	.navbar-brand {
+		font-size: 5vw;
+		/*padding-bottom: 8px;*/
+	}
 }
