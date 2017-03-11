@@ -1,15 +1,5 @@
-/**{
-	box-sizing: border-box;
-	/*font-family: cursive;*/
-}*/
-#bg-image{
-	/*background: url('../Images/IMG_0772.jpg') no-repeat;*/
-  	/*width: 150px;
-  	height: 150px;*/
-  	margin: 10px 15px 10px 0;
-  	color: red;
 
-}
+/**** Header ****/
 .navbar-brand a{
   text-decoration: none;
 	color: #ffffff;
@@ -17,27 +7,59 @@
 #nav-list{
 	text-align: center;
 }
-
 #nav-bar{
 	border-radius: 0;
   border: 0;
+	margin-bottom: 0;
 }
+#bg-image{
+	max-width: 100%;
+	max-height: auto;
+}
+
+
+/**** Home Page *****/
+.container-fluid .jumbotron{
+	padding: 0;
+}
+#home{
+	background-color:#eeeeee;
+	padding-top: 0px;
+}
+#bg-image{
+	max-height: auto;
+	max-width: 100%;
+}
+
 /**** Large Devices ****/
+
 @media(min-width: 1200px){
+	/**** Home Page ****/
+	/*.container-fluid .jumbotron {
+    background: url('../images/BackGround_1200.jpg') no-repeat;
+    height: 675px;
+		width: 100%;
+  }*/
 
 }
 
 /**** Medium Devices ****/
 @media(min-width: 992px) {
+	/**** Home Page ****/
+	/*.container-fluid .jumbotron {
+		background: url('../images/BackGround_992.jpg') no-repeat;
+		height: 558px;
+	}*/
 
 }
 
 /**** Small Devices ****/
 @media(min-width: 768px) {
-	/*.navbar-brand{
-		padding-top: 25px;
+	/**** Home Page ****/
+	/*.container-fluid .jumbotron {
+		background: url('../images/BackGround_768.jpg') no-repeat;
+		height: 558px;
 	}*/
-
 }
 
 /**** Extra Small Devices ****/
