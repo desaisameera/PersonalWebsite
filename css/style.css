@@ -26,9 +26,29 @@
 	background-color:#eeeeee;
 	padding-top: 0px;
 }
+#divJumbotron{
+  position: relative;
+}
 #bg-image{
 	max-height: auto;
 	max-width: 100%;
+}
+#name1{
+  position: absolute;
+  top:25%;
+  left:0;
+  font-size: 5vw;
+  font-family: 'Ranga', cursive;
+  color: #5D6D7E
+}
+#title {
+  position: absolute;
+  top:35%;
+  left:0;
+  font-size: 2vw;
+  font-family: 'Ranga', cursive;
+  color: #5D6D7E
+
 }
 
 /**** Large Devices ****/
