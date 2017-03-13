@@ -1,4 +1,6 @@
-
+body{
+  position:relative;
+}
 /**** Header ****/
 .navbar-brand a{
   text-decoration: none;
@@ -47,8 +49,23 @@
   left:0;
   font-size: 2vw;
   font-family: 'Ranga', cursive;
-  color: #5D6D7E
+  color: #5D6D7E;
 
+}
+
+/**** About Page ****/
+#about{
+  height: 1000px;
+  background-color: green;
+}
+/**** Extra Space ****/
+#extra {
+  height: 500px;
+  background-color: #ffffff;
+}
+/**** Footer ****/
+#footer {
+  color: #ffffff;
 }
 
 /**** Large Devices ****/
