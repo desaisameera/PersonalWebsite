@@ -1,5 +1,6 @@
 body{
   position:relative;
+  background-color: #eeeeee;
 }
 /**** Header ****/
 .navbar-brand a{
@@ -25,7 +26,6 @@ body{
 	padding: 0;
 }
 #home{
-	background-color:#eeeeee;
 	padding-top: 0px;
 }
 #divJumbotron{
@@ -55,20 +55,25 @@ body{
 
 /**** About Page ****/
 #about{
-  height: 1000px;
+  height: 100vh;
   color: #000000;
-  background-color: #eeeeee;
   font-family: 'Indie Flower',fantasy;
 }
 
 /**** Skills ****/
 #skills{
-  background-color: #eeeeee;
+  height: 100vh;
 }
-/**** Extra Space ****/
-#extra {
-  height: 500px;
-  background-color: #ffffff;
+#skills .row{
+  padding-bottom: 5%;
+}
+
+/**** Portfolio ****/
+#portfolio{
+  height: 100vh;
+}
+#construction{
+  margin: auto;
 }
 /**** Footer ****/
 #footer {
