@@ -75,11 +75,25 @@ body{
 #construction{
   margin: auto;
 }
+
+/**** Experience ****/
+#experience{
+  height: 100vh;
+}
 /**** Footer ****/
 #footer {
   color: #ffffff;
 }
 
+/**** Education ****/
+#education {
+  height: 100vh;
+}
+
+/**** Contact ****/
+#contact{
+  height: 100vh;
+}
 /**** Large Devices ****/
 
 @media(min-width: 1200px){
