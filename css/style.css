@@ -58,11 +58,13 @@ body{
   height: 100vh;
   color: #000000;
   font-family: 'Indie Flower',fantasy;
+  padding-top: 50px;
 }
 
 /**** Skills ****/
 #skills{
   height: 100vh;
+  padding-top: 50px;
 }
 #skills .row{
   padding-bottom: 5%;
@@ -71,6 +73,7 @@ body{
 /**** Portfolio ****/
 #portfolio{
   height: 100vh;
+  padding-top: 50px;
 }
 #construction{
   margin: auto;
@@ -79,6 +82,7 @@ body{
 /**** Experience ****/
 #experience{
   height: 100vh;
+  padding-top: 50px;
 }
 /**** Footer ****/
 #footer {
@@ -88,11 +92,13 @@ body{
 /**** Education ****/
 #education {
   height: 100vh;
+  padding-top: 50px;
 }
 
 /**** Contact ****/
 #contact{
   height: 100vh;
+  padding-top: 50px;
 }
 /**** Large Devices ****/
 
