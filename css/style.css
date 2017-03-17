@@ -106,6 +106,12 @@ body{
   height: 100vh;
   padding-top: 50px;
 }
+.glyphicon {
+  font-size: 50px;
+}
+#contact-email {
+  font-size: 25px;
+}
 /**** Large Devices ****/
 
 @media(min-width: 1200px){
