@@ -106,7 +106,14 @@ body{
 #contact{
   height: 100vh;
   padding-top: 50px;
+  font-family: 'Gloria Hallelujah';
+  background-color: white;
 }
+/*#contactEmail{
+  background-image: url("../Images/StickNotePink.jpg");
+  height: 500px;
+
+}*/
 .glyphicon {
   font-size: 50px;
 }
